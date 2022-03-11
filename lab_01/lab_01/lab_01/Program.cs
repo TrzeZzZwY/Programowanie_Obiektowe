@@ -43,6 +43,10 @@ namespace lab_01
             Console.WriteLine(c.RoundDown());
             Console.WriteLine("\nZaokrągl w górę");
             Console.WriteLine(c.RoundUp());
+
+
+            Console.WriteLine(a.Licznik);
+            Console.WriteLine(a.Mianownik);
         }
     }
 }
