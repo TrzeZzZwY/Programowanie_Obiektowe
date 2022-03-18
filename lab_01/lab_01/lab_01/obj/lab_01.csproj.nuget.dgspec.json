@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\Jan.Swider\\Source\\Repos\\TrzeZzZwY\\Programowanie_Obiektowe\\lab_01\\lab_01\\lab_01\\lab_01.csproj": {}
+    "D:\\Users\\jan.swider\\Source\\Repos\\TrzeZzZwY\\Programowanie_Obiektowe\\lab_01\\lab_01\\lab_01\\lab_01.csproj": {}
   },
   "projects": {
-    "D:\\Users\\Jan.Swider\\Source\\Repos\\TrzeZzZwY\\Programowanie_Obiektowe\\lab_01\\lab_01\\lab_01\\lab_01.csproj": {
+    "D:\\Users\\jan.swider\\Source\\Repos\\TrzeZzZwY\\Programowanie_Obiektowe\\lab_01\\lab_01\\lab_01\\lab_01.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\Jan.Swider\\Source\\Repos\\TrzeZzZwY\\Programowanie_Obiektowe\\lab_01\\lab_01\\lab_01\\lab_01.csproj",
+        "projectUniqueName": "D:\\Users\\jan.swider\\Source\\Repos\\TrzeZzZwY\\Programowanie_Obiektowe\\lab_01\\lab_01\\lab_01\\lab_01.csproj",
         "projectName": "lab_01",
-        "projectPath": "D:\\Users\\Jan.Swider\\Source\\Repos\\TrzeZzZwY\\Programowanie_Obiektowe\\lab_01\\lab_01\\lab_01\\lab_01.csproj",
-        "packagesPath": "D:\\Users\\Jan.Swider\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\Jan.Swider\\Source\\Repos\\TrzeZzZwY\\Programowanie_Obiektowe\\lab_01\\lab_01\\lab_01\\obj\\",
+        "projectPath": "D:\\Users\\jan.swider\\Source\\Repos\\TrzeZzZwY\\Programowanie_Obiektowe\\lab_01\\lab_01\\lab_01\\lab_01.csproj",
+        "packagesPath": "D:\\Users\\jan.swider\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\jan.swider\\Source\\Repos\\TrzeZzZwY\\Programowanie_Obiektowe\\lab_01\\lab_01\\lab_01\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "D:\\Users\\Jan.Swider\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "D:\\Users\\jan.swider\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"

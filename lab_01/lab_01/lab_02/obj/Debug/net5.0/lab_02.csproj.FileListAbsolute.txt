@@ -1,0 +1,16 @@
+D:\Users\jan.swider\Source\Repos\TrzeZzZwY\Programowanie_Obiektowe\lab_01\lab_01\lab_02\bin\Debug\net5.0\lab_02.exe
+D:\Users\jan.swider\Source\Repos\TrzeZzZwY\Programowanie_Obiektowe\lab_01\lab_01\lab_02\bin\Debug\net5.0\lab_02.deps.json
+D:\Users\jan.swider\Source\Repos\TrzeZzZwY\Programowanie_Obiektowe\lab_01\lab_01\lab_02\bin\Debug\net5.0\lab_02.runtimeconfig.json
+D:\Users\jan.swider\Source\Repos\TrzeZzZwY\Programowanie_Obiektowe\lab_01\lab_01\lab_02\bin\Debug\net5.0\lab_02.runtimeconfig.dev.json
+D:\Users\jan.swider\Source\Repos\TrzeZzZwY\Programowanie_Obiektowe\lab_01\lab_01\lab_02\bin\Debug\net5.0\lab_02.dll
+D:\Users\jan.swider\Source\Repos\TrzeZzZwY\Programowanie_Obiektowe\lab_01\lab_01\lab_02\bin\Debug\net5.0\ref\lab_02.dll
+D:\Users\jan.swider\Source\Repos\TrzeZzZwY\Programowanie_Obiektowe\lab_01\lab_01\lab_02\bin\Debug\net5.0\lab_02.pdb
+D:\Users\jan.swider\Source\Repos\TrzeZzZwY\Programowanie_Obiektowe\lab_01\lab_01\lab_02\obj\Debug\net5.0\lab_02.csproj.AssemblyReference.cache
+D:\Users\jan.swider\Source\Repos\TrzeZzZwY\Programowanie_Obiektowe\lab_01\lab_01\lab_02\obj\Debug\net5.0\lab_02.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\jan.swider\Source\Repos\TrzeZzZwY\Programowanie_Obiektowe\lab_01\lab_01\lab_02\obj\Debug\net5.0\lab_02.AssemblyInfoInputs.cache
+D:\Users\jan.swider\Source\Repos\TrzeZzZwY\Programowanie_Obiektowe\lab_01\lab_01\lab_02\obj\Debug\net5.0\lab_02.AssemblyInfo.cs
+D:\Users\jan.swider\Source\Repos\TrzeZzZwY\Programowanie_Obiektowe\lab_01\lab_01\lab_02\obj\Debug\net5.0\lab_02.csproj.CoreCompileInputs.cache
+D:\Users\jan.swider\Source\Repos\TrzeZzZwY\Programowanie_Obiektowe\lab_01\lab_01\lab_02\obj\Debug\net5.0\lab_02.dll
+D:\Users\jan.swider\Source\Repos\TrzeZzZwY\Programowanie_Obiektowe\lab_01\lab_01\lab_02\obj\Debug\net5.0\ref\lab_02.dll
+D:\Users\jan.swider\Source\Repos\TrzeZzZwY\Programowanie_Obiektowe\lab_01\lab_01\lab_02\obj\Debug\net5.0\lab_02.pdb
+D:\Users\jan.swider\Source\Repos\TrzeZzZwY\Programowanie_Obiektowe\lab_01\lab_01\lab_02\obj\Debug\net5.0\lab_02.genruntimeconfig.cache
