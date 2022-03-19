@@ -9,20 +9,32 @@ namespace lab_02
     public class Classroom
     {
         private string name;
-        private Person[] presons;
+        private Person[] pearsons;
         public string Name { get => name;}
         public Classroom(string name, Person[] pearsons)
         {
-            this.presons = pearsons;
+            this.pearsons = pearsons;
             this.name = name;
+        }
+        public void Test()
+        {
+            foreach (var item in pearsons)
+            {
+                Console.WriteLine("dupa");
+            }
         }
         public override string ToString()
         {
-            foreach (var item in presons)
+            StringBuilder sb = new StringBuilder();
+            sb.AppendLine($"Classroom: {name}\n");
+            foreach (var item in pearsons)
             {
-                return item.ToString();
+                sb.AppendLine(item.ToString());
+                if (item is Student)               
+                    sb.AppendLine(((Student)item).RenderTasks());
+                
             }
-            return "\n";
+            return sb.ToString();
         }
 
     }

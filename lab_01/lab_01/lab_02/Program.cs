@@ -31,7 +31,6 @@ namespace lab_02
             Classroom classroom = new Classroom("Sala Komputerowa", persons);
 
             Console.WriteLine(classroom);
-
             Console.WriteLine("student1 == student2: " + student1.Equals(student2)); // Output: student1 == student2: true
             Console.WriteLine("student1 == student3: " + student1.Equals(student3)); // Output: student1 == student3: false
         }     

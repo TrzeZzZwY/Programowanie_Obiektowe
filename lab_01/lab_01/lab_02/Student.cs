@@ -8,7 +8,7 @@ namespace lab_02
     public class Student : Person , IEquatable<Student>
     {
         protected string group;
-        protected List<Task> tasks;
+        protected List<Task> tasks = new List<Task>();
         public string Group { get => group;}
         public Student(string name, int age, string group):base(name,age)
         {
@@ -21,11 +21,14 @@ namespace lab_02
         public string RenderTasks(string prefix = "\t")
         {
             StringBuilder sb = new StringBuilder();
+            sb.AppendLine("Tasks:");
             foreach (var item in tasks)
+            {
                 sb.AppendLine($"{prefix}{item}");
+            }
             return sb.ToString();
         }
-        public override string ToString() => $"Student: {name} ({age} y.o)\n";
+        public override string ToString() => $"Student: {name} ({age} y.o)\nGroup: {group}";
 
         public bool Equals(Student other)
         {
