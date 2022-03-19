@@ -9,16 +9,17 @@ namespace lab_02
     public class Classroom
     {
         private string name;
-        private Person[] pearsons;
+        private Person[] persons;
+
         public string Name { get => name;}
-        public Classroom(string name, Person[] pearsons)
+        public Classroom(string name, Person[] persons)
         {
-            this.pearsons = pearsons;
+            this.persons = persons;
             this.name = name;
         }
         public void Test()
         {
-            foreach (var item in pearsons)
+            foreach (var item in persons)
             {
                 Console.WriteLine("dupa");
             }
@@ -27,7 +28,7 @@ namespace lab_02
         {
             StringBuilder sb = new StringBuilder();
             sb.AppendLine($"Classroom: {name}\n");
-            foreach (var item in pearsons)
+            foreach (var item in persons)
             {
                 sb.AppendLine(item.ToString());
                 if (item is Student)               
