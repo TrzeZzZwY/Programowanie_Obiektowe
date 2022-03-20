@@ -19,6 +19,25 @@ namespace lab_2_zadanie
             this.products = products;
         }
 
-        public void Print() => Console.WriteLine("shop");
+        public void Print()
+        {
+            Console.WriteLine($"Shop: {name}");
+            Console.WriteLine("-- People: --");
+            foreach (var item in people)
+            {
+                if(item is Buyer)
+                    ((Buyer)item).Print("\t");
+                if (item is Seller)
+                    ((Seller)item).Print("\t");
+            }
+            Console.WriteLine("-- Products: --");
+            foreach (var item in products)
+            {
+                if (item is Fruit)
+                    ((Fruit)item).Print("\t");
+                if (item is Meat)
+                    ((Meat)item).Print("\t");
+            }
+        }
     }
 }

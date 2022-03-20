@@ -14,6 +14,6 @@ namespace lab_2_zadanie
         {
             this.count = count;
         }
-        public void Print(string prefix) => Console.WriteLine($"{prefix}{Name} {Count}");
+        public void Print(string prefix) => Console.WriteLine($"{prefix}{Name} ({Count} fruits)");
     }
 }

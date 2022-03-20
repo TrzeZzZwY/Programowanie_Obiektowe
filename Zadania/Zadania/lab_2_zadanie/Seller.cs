@@ -12,6 +12,6 @@ namespace lab_2_zadanie
         {
 
         }
-        public void Print(string prefix) => Console.WriteLine($"{prefix}{Name} {Age}");
+        public void Print(string prefix) => Console.WriteLine($"{prefix}Seller: {Name} {Age}");
     }
 }

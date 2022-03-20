@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jasie\\source\\repos\\TrzeZzZwY\\Programowanie_Obiektowe\\Zadania\\Zadania\\lab_2_zadanie\\lab_2_zadanie.csproj": {}
+    "C:\\Users\\jasie\\Source\\Repos\\TrzeZzZwY\\Programowanie_Obiektowe\\Zadania\\Zadania\\lab_2_zadanie\\lab_2_zadanie.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jasie\\source\\repos\\TrzeZzZwY\\Programowanie_Obiektowe\\Zadania\\Zadania\\lab_2_zadanie\\lab_2_zadanie.csproj": {
+    "C:\\Users\\jasie\\Source\\Repos\\TrzeZzZwY\\Programowanie_Obiektowe\\Zadania\\Zadania\\lab_2_zadanie\\lab_2_zadanie.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jasie\\source\\repos\\TrzeZzZwY\\Programowanie_Obiektowe\\Zadania\\Zadania\\lab_2_zadanie\\lab_2_zadanie.csproj",
+        "projectUniqueName": "C:\\Users\\jasie\\Source\\Repos\\TrzeZzZwY\\Programowanie_Obiektowe\\Zadania\\Zadania\\lab_2_zadanie\\lab_2_zadanie.csproj",
         "projectName": "lab_2_zadanie",
-        "projectPath": "C:\\Users\\jasie\\source\\repos\\TrzeZzZwY\\Programowanie_Obiektowe\\Zadania\\Zadania\\lab_2_zadanie\\lab_2_zadanie.csproj",
+        "projectPath": "C:\\Users\\jasie\\Source\\Repos\\TrzeZzZwY\\Programowanie_Obiektowe\\Zadania\\Zadania\\lab_2_zadanie\\lab_2_zadanie.csproj",
         "packagesPath": "C:\\Users\\jasie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jasie\\source\\repos\\TrzeZzZwY\\Programowanie_Obiektowe\\Zadania\\Zadania\\lab_2_zadanie\\obj\\",
+        "outputPath": "C:\\Users\\jasie\\Source\\Repos\\TrzeZzZwY\\Programowanie_Obiektowe\\Zadania\\Zadania\\lab_2_zadanie\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

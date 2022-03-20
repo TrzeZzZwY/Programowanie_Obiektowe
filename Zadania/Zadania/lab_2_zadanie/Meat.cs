@@ -14,6 +14,6 @@ namespace lab_2_zadanie
         {
             this.weight = weight;
         }
-        public void Print(string prefix) => Console.WriteLine($"{prefix}{Name} {Weight}");
+        public void Print(string prefix) => Console.WriteLine($"{prefix}{Name} ({Weight} Kg)");
     }
 }
