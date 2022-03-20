@@ -22,9 +22,9 @@ namespace lab_02
         {
             StringBuilder sb = new StringBuilder();
             sb.AppendLine("Tasks:");
-            foreach (var item in tasks)
+            for (int i = 0; i < tasks.Count; i++)
             {
-                sb.AppendLine($"{prefix}{item}");
+                sb.AppendLine($"{prefix}{i}. {tasks[i]}");
             }
             return sb.ToString();
         }
