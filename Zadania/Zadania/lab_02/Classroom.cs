@@ -30,9 +30,7 @@ namespace lab_02
             sb.AppendLine($"Classroom: {name}\n");
             foreach (var item in people)
             {
-                sb.AppendLine(item.ToString());
-                if (item is Student)               
-                    sb.AppendLine(((Student)item).RenderTasks());
+                sb.AppendLine(item.ToString());     
                 
             }
             return sb.ToString();
