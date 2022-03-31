@@ -12,7 +12,7 @@ namespace lab_03
 
         public SocketLogger(string host, int port)
         {
-
+            ClientSocket = new ClientSocket(host, port);
         }
         ~SocketLogger()
         {
@@ -21,12 +21,12 @@ namespace lab_03
 
         public void Dispose()
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
         }
 
         public void Log(params string[] messages)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
         }
     }
 }

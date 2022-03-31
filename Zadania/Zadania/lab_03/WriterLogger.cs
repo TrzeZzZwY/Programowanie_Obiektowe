@@ -13,7 +13,15 @@ namespace lab_03
 
         public virtual void Log(params string[] messages)
         {
-            // Uzupełnić to miejsce o logikę zapisu opartą o TextWriter ...
+            string output = "";
+            output += $"{DateTime.Now.ToString("yyyy-MM-ddTHH:mm:sszzz")} ";
+            foreach (var item in messages)
+            {
+                output += $"{item} ";
+            }
+            writer.Write(output);
+            writer.WriteLine();
+            writer.Flush();
         }
 
         public abstract void Dispose();

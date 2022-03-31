@@ -1,9 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
+using System.Runtime.InteropServices;
+using Microsoft.Win32.SafeHandles;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace lab_03
 {
@@ -11,27 +10,35 @@ namespace lab_03
     {
         private bool disposed = false;
         protected FileStream stream;
+        private SafeHandle _safeHandle = new SafeFileHandle(IntPtr.Zero, true);
+        private string path;
         public FileLogger(string path)
-        {        
+        {
+            this.path = path;
+            stream = new FileStream(path, FileMode.Append);
+            writer = new StreamWriter(stream, Encoding.UTF8);
         }
+
         ~FileLogger()
         {
             Dispose(false);
         }
-        public override void Dispose(bool disposing)
+        public  void Dispose(bool disposing)
         {
-            if (disposed)
-                return;
-
-            if (disposing)
+            if (!disposed)
             {
-                // Free any other managed objects here.
-                //
-            }
+                if (disposing)
+                {
+                    _safeHandle.Dispose();
+                }
 
-            // Free any unmanaged objects here.
-            //
-            disposed = true;
+                disposed = true;
+            }
+        }
+        public override void Dispose()
+        {
+            Dispose(true);
+            GC.SuppressFinalize(this);
         }
     }
 }

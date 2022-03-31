@@ -10,10 +10,10 @@ namespace lab_03
     {
         public ConsoleLogger()
         {
-
+            writer = Console.Out;
         }
 
-        public override void Dispose(bool disposing)
+        public override void Dispose()
         {
 
         }
