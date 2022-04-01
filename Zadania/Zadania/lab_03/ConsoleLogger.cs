@@ -15,7 +15,7 @@ namespace lab_03
 
         public override void Dispose()
         {
-
+            //tutaj nie powinno być nic 
         }
     }
 }

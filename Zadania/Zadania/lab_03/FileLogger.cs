@@ -1,7 +1,5 @@
 ﻿using System;
 using System.IO;
-using System.Runtime.InteropServices;
-using Microsoft.Win32.SafeHandles;
 using System.Text;
 
 namespace lab_03
@@ -10,7 +8,6 @@ namespace lab_03
     {
         private bool disposed = false;
         protected FileStream stream;
-        private SafeHandle _safeHandle = new SafeFileHandle(IntPtr.Zero, true);
         private string path;
         public FileLogger(string path)
         {
@@ -23,15 +20,14 @@ namespace lab_03
         {
             Dispose(false);
         }
-        public  void Dispose(bool disposing)
+        public void Dispose(bool disposing)
         {
             if (!disposed)
             {
                 if (disposing)
                 {
-                    _safeHandle.Dispose();
+                    writer.Dispose();
                 }
-
                 disposed = true;
             }
         }

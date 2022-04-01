@@ -36,18 +36,12 @@ namespace lab_03
             Dispose(true);
             GC.SuppressFinalize(this);
         }
-
         public void Log(params string[] messages)
         {
             foreach (var item in messages)
             {
                 ClientSocket.Send(Encoding.UTF8.GetBytes(item));
                 byte[] responseBuffer = new byte[1024];
-                int responseSize = ClientSocket.Receive(responseBuffer);
-
-                string responseText = Encoding.UTF8.GetString(responseBuffer, 0, responseSize);
-                Console.WriteLine($"www response:{responseText}");
-                ClientSocket.Close();
             }
         }
     }
