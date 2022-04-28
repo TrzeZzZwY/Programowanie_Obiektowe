@@ -1,0 +1,16 @@
+C:\Users\jasie\source\repos\TrzeZzZwY\Programowanie_Obiektowe\Zadania\Zadania\lab-5 zad\bin\Debug\net5.0\lab_5 zad.exe
+C:\Users\jasie\source\repos\TrzeZzZwY\Programowanie_Obiektowe\Zadania\Zadania\lab-5 zad\bin\Debug\net5.0\lab_5 zad.deps.json
+C:\Users\jasie\source\repos\TrzeZzZwY\Programowanie_Obiektowe\Zadania\Zadania\lab-5 zad\bin\Debug\net5.0\lab_5 zad.runtimeconfig.json
+C:\Users\jasie\source\repos\TrzeZzZwY\Programowanie_Obiektowe\Zadania\Zadania\lab-5 zad\bin\Debug\net5.0\lab_5 zad.runtimeconfig.dev.json
+C:\Users\jasie\source\repos\TrzeZzZwY\Programowanie_Obiektowe\Zadania\Zadania\lab-5 zad\bin\Debug\net5.0\lab_5 zad.dll
+C:\Users\jasie\source\repos\TrzeZzZwY\Programowanie_Obiektowe\Zadania\Zadania\lab-5 zad\bin\Debug\net5.0\lab_5 zad.pdb
+C:\Users\jasie\source\repos\TrzeZzZwY\Programowanie_Obiektowe\Zadania\Zadania\lab-5 zad\obj\Debug\net5.0\lab_5 zad.csproj.AssemblyReference.cache
+C:\Users\jasie\source\repos\TrzeZzZwY\Programowanie_Obiektowe\Zadania\Zadania\lab-5 zad\obj\Debug\net5.0\lab_5 zad.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jasie\source\repos\TrzeZzZwY\Programowanie_Obiektowe\Zadania\Zadania\lab-5 zad\obj\Debug\net5.0\lab_5 zad.AssemblyInfoInputs.cache
+C:\Users\jasie\source\repos\TrzeZzZwY\Programowanie_Obiektowe\Zadania\Zadania\lab-5 zad\obj\Debug\net5.0\lab_5 zad.AssemblyInfo.cs
+C:\Users\jasie\source\repos\TrzeZzZwY\Programowanie_Obiektowe\Zadania\Zadania\lab-5 zad\obj\Debug\net5.0\lab_5 zad.csproj.CoreCompileInputs.cache
+C:\Users\jasie\source\repos\TrzeZzZwY\Programowanie_Obiektowe\Zadania\Zadania\lab-5 zad\obj\Debug\net5.0\lab_5 zad.dll
+C:\Users\jasie\source\repos\TrzeZzZwY\Programowanie_Obiektowe\Zadania\Zadania\lab-5 zad\obj\Debug\net5.0\refint\lab_5 zad.dll
+C:\Users\jasie\source\repos\TrzeZzZwY\Programowanie_Obiektowe\Zadania\Zadania\lab-5 zad\obj\Debug\net5.0\lab_5 zad.pdb
+C:\Users\jasie\source\repos\TrzeZzZwY\Programowanie_Obiektowe\Zadania\Zadania\lab-5 zad\obj\Debug\net5.0\lab_5 zad.genruntimeconfig.cache
+C:\Users\jasie\source\repos\TrzeZzZwY\Programowanie_Obiektowe\Zadania\Zadania\lab-5 zad\obj\Debug\net5.0\ref\lab_5 zad.dll
