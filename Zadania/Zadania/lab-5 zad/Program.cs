@@ -8,6 +8,14 @@ namespace lab_5_zad
         {
             ObservableList1<string> ol1 = new ObservableList1<string>();
 
+
+            EventHandler<ChangedEventArgs<string>> tt = (object sender, ChangedEventArgs<string> e) =>
+            {
+                Console.WriteLine("dodano wartość do listy: " + e.value);
+            };
+
+
+
             ol1.Added += (object sender, ChangedEventArgs<string> e) =>
             {
                 Console.WriteLine("dodano wartość do listy: " + e.value);

@@ -37,7 +37,7 @@ namespace lab_5_zad
 
         private void Add(T Value)
         {
-            lista.Add(Value);
+            this.lista.Add(Value);
 
             this.OnAdded(new ChangedEventArgs2<T>(Value));
         }
