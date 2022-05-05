@@ -10,24 +10,24 @@ namespace lab_6
         {
             List<User> users = new List<User>()
             {
-                new User(){Name = "A", Role ="Admin", Marks = null },
-                new User(){Name = "E", Role ="Moderator", Marks = null},
-                new User(){Name = "F", Role ="Teacher", Marks = null},
-                new User(){Name = "G", Role ="Teacher", Marks = null},
-                new User(){Name = "M", Role ="Student", Marks = new int[]{4,3,4,5} },
-                new User(){Name = "D", Role ="Moderator", Marks = null},
-                new User(){Name = "I", Role ="Teacher", Marks = null},
-                new User(){Name = "J", Role ="Student", Marks = new int[]{4,5,4,5}},
-                new User(){Name = "L", Role ="Student", Marks = new int[]{2,3,3,2,3}},
-                new User(){Name = "R", Role ="Student", Marks = new int[]{4,5,5,6,6}},
-                new User(){Name = "N", Role ="Student", Marks = new int[]{5,3,2,5}},
-                new User(){Name = "O", Role ="Student", Marks = new int[]{4,3,}},
-                new User(){Name = "P", Role ="Student", Marks = new int[]{3,3,3,3}},
-                new User(){Name = "Q", Role ="Student", Marks = new int[]{3,5}},
-                new User(){Name = "H", Role ="Teacher", Marks = null},
-                new User(){Name = "B", Role ="Admin", Marks = null},
-                new User(){Name = "C", Role ="Moderator", Marks = null},
-                new User(){Name = "S", Role ="Student", Marks = new int[]{4,3,4,5}}
+                new User(){Name = "A", Role ="Admin", Marks = null,CreatedAt = new DateTime(year:2022,month:2,day:3) },
+                new User(){Name = "E", Role ="Moderator", Marks = null,CreatedAt = new DateTime(year:2022,month:1,day:3),RemovedAt = new DateTime(year:2022,month:9,day:3)},
+                new User(){Name = "F", Role ="Teacher", Marks = null,CreatedAt = new DateTime(year:2022,month:1,day:3),RemovedAt = new DateTime(year:2022,month:9,day:3)},
+                new User(){Name = "G", Role ="Teacher", Marks = null,CreatedAt = new DateTime(year:2022,month:5,day:3)},
+                new User(){Name = "M", Role ="Student", Marks = new int[]{4,3,4,5} ,CreatedAt = new DateTime(year:2022,month:4,day:3)},
+                new User(){Name = "D", Role ="Moderator", Marks = null,CreatedAt = new DateTime(year:2022,month:2,day:3)},
+                new User(){Name = "I", Role ="Teacher", Marks = null,CreatedAt = new DateTime(year:2022,month:6,day:3),RemovedAt = new DateTime(year:2022,month:9,day:3)},
+                new User(){Name = "J", Role ="Student", Marks = new int[]{4,5,4,5},CreatedAt = new DateTime(year:2022,month:5,day:3)},
+                new User(){Name = "L", Role ="Student", Marks = new int[]{2,3,3,2,3},CreatedAt = new DateTime(year:2022,month:4,day:3)},
+                new User(){Name = "R", Role ="Student", Marks = new int[]{4,5,5,6,6},CreatedAt = new DateTime(year:2022,month:3,day:3),RemovedAt = new DateTime(year:2022,month:9,day:3)},
+                new User(){Name = "N", Role ="Student", Marks = new int[]{5,3,2,5},CreatedAt = new DateTime(year:2022,month:4,day:3)},
+                new User(){Name = "O", Role ="Student", Marks = new int[]{4,3,},CreatedAt = new DateTime(year:2022,month:3,day:3),RemovedAt = new DateTime(year:2022,month:9,day:3)},
+                new User(){Name = "P", Role ="Student", Marks = new int[]{3,3,3,3},CreatedAt = new DateTime(year:2022,month:2,day:3)},
+                new User(){Name = "Q", Role ="Student", Marks = new int[]{3,5},CreatedAt = new DateTime(year:2022,month:7,day:3)},
+                new User(){Name = "H", Role ="Teacher", Marks = null,CreatedAt = new DateTime(year:2022,month:6,day:3)},
+                new User(){Name = "B", Role ="Admin", Marks = null,CreatedAt = new DateTime(year:2022,month:6,day:3)},
+                new User(){Name = "C", Role ="Moderator", Marks = null,CreatedAt = new DateTime(year:2022,month:4,day:3),RemovedAt = new DateTime(year:2022,month:9,day:3)},
+                new User(){Name = "S", Role ="Student", Marks = new int[]{4,3,4,5},CreatedAt = new DateTime(year:2022,month:1,day:3)}
             };
 
             Console.WriteLine(users.Count());
@@ -112,12 +112,40 @@ namespace lab_6
                 Console.WriteLine($"nazwa: {item.Name}, średnia: {item.avg}");
             }
             Console.WriteLine("\n\n Zad 14");
-            var bestStudentSort = users.Where(e => e.Marks != null).OrderByDescending(e => (decimal)e.Marks?.Sum() / e.Marks?.Count());
+            var bestStudentSort = users.Where(e => e.Marks != null).OrderByDescending(e => (decimal)e.Marks?.Average());
             foreach (var item in bestStudentSort)
+            {
+                Console.WriteLine($"Student: {item.Name}\t średnia: {item.Marks?.Average()}");
+            }
+
+            Console.WriteLine("\n\n Zad 15");
+            var avarageOfAvarage = bestStudentSort.Average(e => e.Marks.Average());
+            Console.WriteLine($"średnia średnich:{avarageOfAvarage:f3}");
+
+            Console.WriteLine("\n\n Zad 16");
+            var sortedByCreatedDate = users.GroupBy(e => e.CreatedAt.Value);
+            foreach (var item in sortedByCreatedDate)
+            {
+                Console.WriteLine($"\n{item.Key.ToString("M")}");
+                foreach (var item2 in item)
+                {
+                    Console.Write($"{item2.Name}, ");
+                }
+                
+            }
+            Console.WriteLine("\n\n Zad 17");
+            var notRemoved = users.Where(e => e.RemovedAt is not null);
+            foreach (var item in notRemoved)
             {
                 Console.WriteLine(item.Name);
             }
 
+            Console.WriteLine("\n\n Zad 18");
+            var newest = users.Select(e => e).Where(e => e.CreatedAt == users.Max(e => e.CreatedAt));
+            foreach (var item in newest)
+            {
+                Console.WriteLine($"{item.Name} {item.CreatedAt.Value.ToString("D")}");
+            }
 
         }
     }
