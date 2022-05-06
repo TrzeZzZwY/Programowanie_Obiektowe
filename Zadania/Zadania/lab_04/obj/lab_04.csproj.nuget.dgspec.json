@@ -1,21 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jasie\\source\\repos\\TrzeZzZwY\\Programowanie_Obiektowe\\Zadania\\Zadania\\lab_04\\lab_04.csproj": {}
+    "D:\\Users\\Jan.Swider\\Source\\Repos\\TrzeZzZwY\\Programowanie_Obiektowe\\Zadania\\Zadania\\lab_04\\lab_04.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jasie\\source\\repos\\TrzeZzZwY\\Programowanie_Obiektowe\\Zadania\\Zadania\\lab_04\\lab_04.csproj": {
+    "D:\\Users\\Jan.Swider\\Source\\Repos\\TrzeZzZwY\\Programowanie_Obiektowe\\Zadania\\Zadania\\lab_04\\lab_04.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jasie\\source\\repos\\TrzeZzZwY\\Programowanie_Obiektowe\\Zadania\\Zadania\\lab_04\\lab_04.csproj",
+        "projectUniqueName": "D:\\Users\\Jan.Swider\\Source\\Repos\\TrzeZzZwY\\Programowanie_Obiektowe\\Zadania\\Zadania\\lab_04\\lab_04.csproj",
         "projectName": "lab_04",
-        "projectPath": "C:\\Users\\jasie\\source\\repos\\TrzeZzZwY\\Programowanie_Obiektowe\\Zadania\\Zadania\\lab_04\\lab_04.csproj",
-        "packagesPath": "C:\\Users\\jasie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jasie\\source\\repos\\TrzeZzZwY\\Programowanie_Obiektowe\\Zadania\\Zadania\\lab_04\\obj\\",
+        "projectPath": "D:\\Users\\Jan.Swider\\Source\\Repos\\TrzeZzZwY\\Programowanie_Obiektowe\\Zadania\\Zadania\\lab_04\\lab_04.csproj",
+        "packagesPath": "D:\\Users\\Jan.Swider\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\Jan.Swider\\Source\\Repos\\TrzeZzZwY\\Programowanie_Obiektowe\\Zadania\\Zadania\\lab_04\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\jasie\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "D:\\Users\\Jan.Swider\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -54,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
