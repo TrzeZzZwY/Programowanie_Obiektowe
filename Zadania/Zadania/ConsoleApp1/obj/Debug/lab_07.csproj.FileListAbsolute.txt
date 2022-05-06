@@ -1,0 +1,7 @@
+D:\Users\Jan.Swider\source\repos\TrzeZzZwY\Programowanie_Obiektowe\Zadania\Zadania\ConsoleApp1\obj\Debug\lab_07.csproj.AssemblyReference.cache
+D:\Users\Jan.Swider\source\repos\TrzeZzZwY\Programowanie_Obiektowe\Zadania\Zadania\ConsoleApp1\obj\Debug\lab_07.csproj.CoreCompileInputs.cache
+D:\Users\Jan.Swider\source\repos\TrzeZzZwY\Programowanie_Obiektowe\Zadania\Zadania\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+D:\Users\Jan.Swider\source\repos\TrzeZzZwY\Programowanie_Obiektowe\Zadania\Zadania\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+D:\Users\Jan.Swider\source\repos\TrzeZzZwY\Programowanie_Obiektowe\Zadania\Zadania\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+D:\Users\Jan.Swider\source\repos\TrzeZzZwY\Programowanie_Obiektowe\Zadania\Zadania\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+D:\Users\Jan.Swider\source\repos\TrzeZzZwY\Programowanie_Obiektowe\Zadania\Zadania\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
