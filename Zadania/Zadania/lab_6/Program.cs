@@ -242,7 +242,7 @@ namespace lab_6
                          select user).Last();
             Console.WriteLine($"bestStudent: {zad10.Name}");
 
-
+            
             Console.WriteLine("\n\n Zad 11");
             var zad11 = (from user in users
                          where user.Marks != null

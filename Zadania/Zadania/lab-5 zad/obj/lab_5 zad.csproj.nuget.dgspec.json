@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jasie\\Source\\Repos\\TrzeZzZwY\\Programowanie_Obiektowe\\Zadania\\Zadania\\lab-5 zad\\lab_5 zad.csproj": {}
+    "C:\\Users\\jasie\\source\\repos\\TrzeZzZwY\\Programowanie_Obiektowe\\Zadania\\Zadania\\lab-5 zad\\lab_5 zad.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jasie\\Source\\Repos\\TrzeZzZwY\\Programowanie_Obiektowe\\Zadania\\Zadania\\lab-5 zad\\lab_5 zad.csproj": {
+    "C:\\Users\\jasie\\source\\repos\\TrzeZzZwY\\Programowanie_Obiektowe\\Zadania\\Zadania\\lab-5 zad\\lab_5 zad.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jasie\\Source\\Repos\\TrzeZzZwY\\Programowanie_Obiektowe\\Zadania\\Zadania\\lab-5 zad\\lab_5 zad.csproj",
+        "projectUniqueName": "C:\\Users\\jasie\\source\\repos\\TrzeZzZwY\\Programowanie_Obiektowe\\Zadania\\Zadania\\lab-5 zad\\lab_5 zad.csproj",
         "projectName": "lab_5 zad",
-        "projectPath": "C:\\Users\\jasie\\Source\\Repos\\TrzeZzZwY\\Programowanie_Obiektowe\\Zadania\\Zadania\\lab-5 zad\\lab_5 zad.csproj",
+        "projectPath": "C:\\Users\\jasie\\source\\repos\\TrzeZzZwY\\Programowanie_Obiektowe\\Zadania\\Zadania\\lab-5 zad\\lab_5 zad.csproj",
         "packagesPath": "C:\\Users\\jasie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jasie\\Source\\Repos\\TrzeZzZwY\\Programowanie_Obiektowe\\Zadania\\Zadania\\lab-5 zad\\obj\\",
+        "outputPath": "C:\\Users\\jasie\\source\\repos\\TrzeZzZwY\\Programowanie_Obiektowe\\Zadania\\Zadania\\lab-5 zad\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jasie\\AppData\\Roaming\\NuGet\\NuGet.Config",

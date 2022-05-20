@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jasie\\Source\\Repos\\TrzeZzZwY\\Programowanie_Obiektowe\\Zadania\\Zadania\\lab_02\\lab_02.csproj": {}
+    "C:\\Users\\jasie\\source\\repos\\TrzeZzZwY\\Programowanie_Obiektowe\\Zadania\\Zadania\\lab_02\\lab_02.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jasie\\Source\\Repos\\TrzeZzZwY\\Programowanie_Obiektowe\\Zadania\\Zadania\\lab_02\\lab_02.csproj": {
+    "C:\\Users\\jasie\\source\\repos\\TrzeZzZwY\\Programowanie_Obiektowe\\Zadania\\Zadania\\lab_02\\lab_02.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jasie\\Source\\Repos\\TrzeZzZwY\\Programowanie_Obiektowe\\Zadania\\Zadania\\lab_02\\lab_02.csproj",
+        "projectUniqueName": "C:\\Users\\jasie\\source\\repos\\TrzeZzZwY\\Programowanie_Obiektowe\\Zadania\\Zadania\\lab_02\\lab_02.csproj",
         "projectName": "lab_02",
-        "projectPath": "C:\\Users\\jasie\\Source\\Repos\\TrzeZzZwY\\Programowanie_Obiektowe\\Zadania\\Zadania\\lab_02\\lab_02.csproj",
+        "projectPath": "C:\\Users\\jasie\\source\\repos\\TrzeZzZwY\\Programowanie_Obiektowe\\Zadania\\Zadania\\lab_02\\lab_02.csproj",
         "packagesPath": "C:\\Users\\jasie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jasie\\Source\\Repos\\TrzeZzZwY\\Programowanie_Obiektowe\\Zadania\\Zadania\\lab_02\\obj\\",
+        "outputPath": "C:\\Users\\jasie\\source\\repos\\TrzeZzZwY\\Programowanie_Obiektowe\\Zadania\\Zadania\\lab_02\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jasie\\AppData\\Roaming\\NuGet\\NuGet.Config",
