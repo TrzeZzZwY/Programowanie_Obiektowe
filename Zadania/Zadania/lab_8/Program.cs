@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -12,38 +13,32 @@ namespace lab_8
         static volatile bool looped = true;
         public static void Main(string[] args)
         {
+            /*
             SortedSet<int> set = new SortedSet<int>();
             Thread prime1 = new Thread(() =>
             {
-                for (int i = 0; looped; i += 5)
+                for (int i = 0; looped; i += 4)
                     if (isPrime(i))
                         lock (set)
                             set.Add(i);
             });
             Thread prime2 = new Thread(() =>
             {
-                for (int i = 1; looped; i += 5)
+                for (int i = 1; looped; i += 4)
                     if (isPrime(i))
                         lock (set)
                             set.Add(i);
             });
             Thread prime3 = new Thread(() =>
             {
-                for (int i = 2; looped; i += 5)
+                for (int i = 2; looped; i += 4)
                     if (isPrime(i))
                         lock (set)
                             set.Add(i);
             });
             Thread prime4 = new Thread(() =>
             {
-                for (int i = 3; looped; i += 5)
-                    if (isPrime(i))
-                        lock (set)
-                            set.Add(i);
-            });
-            Thread prime5 = new Thread(() =>
-            {
-                for (int i = 4; looped; i += 5)
+                for (int i = 3; looped; i += 4)
                     if (isPrime(i))
                         lock (set)
                             set.Add(i);
@@ -52,18 +47,16 @@ namespace lab_8
             prime2.Start();
             prime3.Start();
             prime4.Start();
-            prime5.Start();
             Thread.Sleep(10000);
             looped = false;
             prime1.Join();
             prime2.Join();
             prime3.Join();
             prime4.Join();
-            prime5.Join();
             Console.WriteLine(set.Count);
-
-            //Task tast = DoTasks();
-            //tast.Wait();
+            */
+            Task tast = DoTasks();
+            tast.Wait();
 
             /*
             Thread thread = new Thread(() =>
@@ -111,32 +104,29 @@ namespace lab_8
         }
         private static async Task DoTasks()
         {
+            Stopwatch s = Stopwatch.StartNew();
             int couter = 0; ;
             SortedSet<int> set = new SortedSet<int>();
-            Task<bool> task1 = DoTask(0, set);
-            Task<bool> task2 = DoTask(1, set);
-            Task<bool> task3 = DoTask(2, set);
-            Task<bool> task4 = DoTask(3, set);
-            if (await task1) couter += 1;
-            if (await task2) couter += 1;
-            if (await task3) couter += 1;
-            if (await task4) couter += 1;
-            Thread.Sleep(10000);
-            looped = false;
-            Console.WriteLine("Tasks done: " + couter);
+
+            for (int i = 0; s.ElapsedMilliseconds < 10000; i += 4)
+            {
+                Task<bool> task1 = DoTask(i + 0);
+                Task<bool> task2 = DoTask(i + 1);
+                Task<bool> task3 = DoTask(i + 2);
+                Task<bool> task4 = DoTask(i + 3);
+                if (await task1) set.Add(i + 0);
+                if (await task2) set.Add(i + 1);
+                if (await task3) set.Add(i + 2);
+                if (await task4) set.Add(i + 3);
+            }
             Console.WriteLine(set.Count);
 
         }
-        private static async Task<bool> DoTask(int taskId, SortedSet<int> set)
+        private static async Task<bool> DoTask(int numb)
         {
             return await Task<bool>.Run(() =>
             {
-                for (int i = taskId; looped; i += 4)
-                    if (isPrime(i))
-                        lock (set)
-                            set.Add(i);
-
-                return true;
+                return isPrime(numb);
             });
         }
     }

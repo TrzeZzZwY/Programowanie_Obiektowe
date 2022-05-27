@@ -1,0 +1,110 @@
+﻿<Window x:Class="lab_9.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lab_9"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="4*"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="5*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2">
+            <Border x:Name="Text" CornerRadius="8" Background="Gray" Width="38" Height="25" Margin="8,0,0,0">
+                <TextBlock Text="TEXT" Padding="5" FontWeight="Bold"></TextBlock>
+                
+            </Border>
+            <Border x:Name="bash" CornerRadius="8" Background="Green" Width="35" Height="25" Margin="8,0,0,0">
+                <TextBlock Text="Bash" Padding="5" FontWeight="Bold"></TextBlock>
+            </Border>
+            <Border x:Name="cpp" CornerRadius="8" Background="RoyalBlue" Width="35" Height="25" Margin="8,0,0,0">
+                <TextBlock Text="C++" Padding="5" FontWeight="Bold"></TextBlock>
+            </Border>
+            <Border x:Name="cs" CornerRadius="8" Background="BlueViolet" Width="35" Height="25" Margin="8,0,0,0">
+                <TextBlock Text="C#" Padding="5" FontWeight="Bold"></TextBlock>
+            </Border>
+            <Border x:Name="java" CornerRadius="8" Background="CadetBlue" Width="35" Height="25" Margin="8,0,0,0">
+                <TextBlock Text="Java" Padding="5" FontWeight="Bold"></TextBlock>
+            </Border>
+            <Border x:Name="css" CornerRadius="8" Background="DodgerBlue" Width="35" Height="25" Margin="8,0,0,0">
+                <TextBlock Text="CSS" Padding="5" FontWeight="Bold"></TextBlock>
+            </Border>
+            <Border x:Name="html" CornerRadius="8" Background="Orange" Width="45" Height="25" Margin="8,0,0,0">
+                <TextBlock Text="HTML" Padding="5" FontWeight="Bold"></TextBlock>
+            </Border>
+            <Border x:Name="js" CornerRadius="8" Background="Goldenrod" Width="75" Height="25" Margin="8,0,0,0">
+                <TextBlock Text="Java Script" Padding="5" FontWeight="Bold"></TextBlock>
+            </Border>
+            <Border x:Name="php" CornerRadius="8" Background="LightSlateGray" Width="35" Height="25" Margin="8,0,0,0">
+                <TextBlock Text="PHP" Padding="5" FontWeight="Bold"></TextBlock>
+            </Border>
+            <Border x:Name="python" CornerRadius="8" Background="Gold" Width="48" Height="25" Margin="8,0,0,0">
+                <TextBlock Text="Python" Padding="5" FontWeight="Bold"></TextBlock>
+            </Border>
+            <Border x:Name="sql" CornerRadius="8" Background="SkyBlue" Width="35" Height="25" Margin="8,0,0,0">
+                <TextBlock Text="SQL" Padding="5" FontWeight="Bold"></TextBlock>
+            </Border>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" HorizontalAlignment="Right">
+            <Border  CornerRadius="2" BorderBrush="DeepSkyBlue" BorderThickness="2" Background="White" Width="25" Height="25" Margin="4,0,0,0">
+                <TextBlock Text="0" Padding="6,4,0,0" FontWeight="Bold"></TextBlock>
+            </Border>
+            <Border  CornerRadius="2" BorderBrush="DeepSkyBlue" BorderThickness="2" Background="White" Width="25" Height="25" Margin="4,0,0,0">
+                <TextBlock Text="0" Padding="6,4,0,0" FontWeight="Bold"></TextBlock>
+            </Border>
+            <Border  CornerRadius="2" BorderBrush="DeepSkyBlue" BorderThickness="2" Background="White" Width="25" Height="25" Margin="4,0,0,0">
+                <TextBlock Text="0" Padding="6,4,0,0" FontWeight="Bold"></TextBlock>
+            </Border>
+            <Border  CornerRadius="2" BorderBrush="DeepSkyBlue" BorderThickness="2" Background="White" Width="25" Height="25" Margin="4,0,0,0">
+                <TextBlock Text="0" Padding="6,4,0,0" FontWeight="Bold"></TextBlock>
+            </Border>
+            <Border  CornerRadius="2" BorderBrush="DeepSkyBlue" BorderThickness="2" Background="White" Width="25" Height="25" Margin="4,0,0,0">
+                <TextBlock Text="0" Padding="6,4,0,0" FontWeight="Bold"></TextBlock>
+            </Border>
+            <Border  CornerRadius="2" BorderBrush="DeepSkyBlue" BorderThickness="2" Background="White" Width="25" Height="25" Margin="4,0,0,0">
+                <TextBlock Text="0" Padding="6,4,0,0" FontWeight="Bold"></TextBlock>
+            </Border>
+            <Border  CornerRadius="2" BorderBrush="DeepSkyBlue" BorderThickness="2" Background="White" Width="25" Height="25" Margin="4,0,0,0">
+                <TextBlock Text="0" Padding="6,4,0,0" FontWeight="Bold"></TextBlock>
+            </Border>
+            <ComboBox Height="25" Width=" 35" Margin=" 8" Background="White">
+                <ComboBoxItem>1</ComboBoxItem>
+                <ComboBoxItem>2</ComboBoxItem>
+                <ComboBoxItem>3</ComboBoxItem>
+                <ComboBoxItem>4</ComboBoxItem>
+            </ComboBox>
+        </StackPanel>
+        
+        
+        
+        <StackPanel x:Name="SName" Grid.Row="2" Grid.Column="0">
+            <TextBlock Text="Snippet name" HorizontalAlignment="Left" Margin="10,5,0,10" FontSize="16" FontWeight="DemiBold"></TextBlock>
+            
+        
+        </StackPanel>
+
+
+
+        <StackPanel x:Name="SType" Grid.Row="2" Grid.Column="1">
+            <TextBlock Text="Snippet type" HorizontalAlignment="Left" Margin="10,5,0,10" FontSize="16" FontWeight="DemiBold"></TextBlock>
+        </StackPanel>
+
+
+        <StackPanel x:Name="STime" Grid.Row="2" Grid.Column="2">
+            <TextBlock Text="Updat time" HorizontalAlignment="Left" Margin="10,5,0,10" FontSize="16" FontWeight="DemiBold"></TextBlock>
+        </StackPanel>
+        
+        
+        
+    </Grid>
+</Window>
