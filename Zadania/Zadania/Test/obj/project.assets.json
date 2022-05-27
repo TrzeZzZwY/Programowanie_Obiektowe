@@ -6135,11 +6135,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jasie\\source\\repos\\TrzeZzZwY\\Programowanie_Obiektowe\\Zadania\\Zadania\\Test\\Test.csproj",
+      "projectUniqueName": "C:\\Users\\jasie\\Source\\Repos\\TrzeZzZwY\\Programowanie_Obiektowe\\Zadania\\Zadania\\Test\\Test.csproj",
       "projectName": "Test",
-      "projectPath": "C:\\Users\\jasie\\source\\repos\\TrzeZzZwY\\Programowanie_Obiektowe\\Zadania\\Zadania\\Test\\Test.csproj",
+      "projectPath": "C:\\Users\\jasie\\Source\\Repos\\TrzeZzZwY\\Programowanie_Obiektowe\\Zadania\\Zadania\\Test\\Test.csproj",
       "packagesPath": "C:\\Users\\jasie\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jasie\\source\\repos\\TrzeZzZwY\\Programowanie_Obiektowe\\Zadania\\Zadania\\Test\\obj\\",
+      "outputPath": "C:\\Users\\jasie\\Source\\Repos\\TrzeZzZwY\\Programowanie_Obiektowe\\Zadania\\Zadania\\Test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jasie\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6156,8 +6156,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\jasie\\source\\repos\\TrzeZzZwY\\Programowanie_Obiektowe\\Zadania\\Zadania\\lab_01\\lab_01.csproj": {
-              "projectPath": "C:\\Users\\jasie\\source\\repos\\TrzeZzZwY\\Programowanie_Obiektowe\\Zadania\\Zadania\\lab_01\\lab_01.csproj"
+            "C:\\Users\\jasie\\Source\\Repos\\TrzeZzZwY\\Programowanie_Obiektowe\\Zadania\\Zadania\\lab_01\\lab_01.csproj": {
+              "projectPath": "C:\\Users\\jasie\\Source\\Repos\\TrzeZzZwY\\Programowanie_Obiektowe\\Zadania\\Zadania\\lab_01\\lab_01.csproj"
             }
           }
         }

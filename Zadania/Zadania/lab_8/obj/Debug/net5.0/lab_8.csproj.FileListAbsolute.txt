@@ -1,0 +1,16 @@
+C:\Users\jasie\source\repos\TrzeZzZwY\Programowanie_Obiektowe\Zadania\Zadania\lab_8\bin\Debug\net5.0\lab_8.exe
+C:\Users\jasie\Source\Repos\TrzeZzZwY\Programowanie_Obiektowe\Zadania\Zadania\lab_8\bin\Debug\net5.0\lab_8.deps.json
+C:\Users\jasie\Source\Repos\TrzeZzZwY\Programowanie_Obiektowe\Zadania\Zadania\lab_8\bin\Debug\net5.0\lab_8.runtimeconfig.json
+C:\Users\jasie\Source\Repos\TrzeZzZwY\Programowanie_Obiektowe\Zadania\Zadania\lab_8\bin\Debug\net5.0\lab_8.runtimeconfig.dev.json
+C:\Users\jasie\source\repos\TrzeZzZwY\Programowanie_Obiektowe\Zadania\Zadania\lab_8\bin\Debug\net5.0\lab_8.dll
+C:\Users\jasie\source\repos\TrzeZzZwY\Programowanie_Obiektowe\Zadania\Zadania\lab_8\bin\Debug\net5.0\lab_8.pdb
+C:\Users\jasie\source\repos\TrzeZzZwY\Programowanie_Obiektowe\Zadania\Zadania\lab_8\obj\Debug\net5.0\lab_8.csproj.AssemblyReference.cache
+C:\Users\jasie\source\repos\TrzeZzZwY\Programowanie_Obiektowe\Zadania\Zadania\lab_8\obj\Debug\net5.0\lab_8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jasie\source\repos\TrzeZzZwY\Programowanie_Obiektowe\Zadania\Zadania\lab_8\obj\Debug\net5.0\lab_8.AssemblyInfoInputs.cache
+C:\Users\jasie\source\repos\TrzeZzZwY\Programowanie_Obiektowe\Zadania\Zadania\lab_8\obj\Debug\net5.0\lab_8.AssemblyInfo.cs
+C:\Users\jasie\source\repos\TrzeZzZwY\Programowanie_Obiektowe\Zadania\Zadania\lab_8\obj\Debug\net5.0\lab_8.csproj.CoreCompileInputs.cache
+C:\Users\jasie\source\repos\TrzeZzZwY\Programowanie_Obiektowe\Zadania\Zadania\lab_8\obj\Debug\net5.0\lab_8.dll
+C:\Users\jasie\source\repos\TrzeZzZwY\Programowanie_Obiektowe\Zadania\Zadania\lab_8\obj\Debug\net5.0\refint\lab_8.dll
+C:\Users\jasie\source\repos\TrzeZzZwY\Programowanie_Obiektowe\Zadania\Zadania\lab_8\obj\Debug\net5.0\lab_8.pdb
+C:\Users\jasie\Source\Repos\TrzeZzZwY\Programowanie_Obiektowe\Zadania\Zadania\lab_8\obj\Debug\net5.0\lab_8.genruntimeconfig.cache
+C:\Users\jasie\Source\Repos\TrzeZzZwY\Programowanie_Obiektowe\Zadania\Zadania\lab_8\obj\Debug\net5.0\ref\lab_8.dll
