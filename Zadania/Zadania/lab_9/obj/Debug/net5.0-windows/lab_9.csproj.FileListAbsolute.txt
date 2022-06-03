@@ -42,3 +42,6 @@ C:\Users\jasie\Source\Repos\TrzeZzZwY\Programowanie_Obiektowe\Zadania\Zadania\la
 C:\Users\jasie\Source\Repos\TrzeZzZwY\Programowanie_Obiektowe\Zadania\Zadania\lab_9\obj\Debug\net5.0-windows\lab_9.pdb
 C:\Users\jasie\Source\Repos\TrzeZzZwY\Programowanie_Obiektowe\Zadania\Zadania\lab_9\obj\Debug\net5.0-windows\lab_9.genruntimeconfig.cache
 C:\Users\jasie\Source\Repos\TrzeZzZwY\Programowanie_Obiektowe\Zadania\Zadania\lab_9\obj\Debug\net5.0-windows\ref\lab_9.dll
+D:\Users\Jan.Swider\Source\Repos\TrzeZzZwY\Programowanie_Obiektowe\Zadania\Zadania\lab_9\obj\Debug\net5.0-windows\Technology.g.cs
+D:\Users\Jan.Swider\Source\Repos\TrzeZzZwY\Programowanie_Obiektowe\Zadania\Zadania\lab_9\obj\Debug\net5.0-windows\Technology.baml
+D:\Users\Jan.Swider\Source\Repos\TrzeZzZwY\Programowanie_Obiektowe\Zadania\Zadania\lab_9\obj\Debug\net5.0-windows\GeneratedInternalTypeHelper.g.cs

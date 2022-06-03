@@ -20,40 +20,17 @@
             <RowDefinition Height="5*"></RowDefinition>
         </Grid.RowDefinitions>
         <StackPanel Orientation="Horizontal" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2">
-            <Border x:Name="text" CornerRadius="8" Background="Gray" Width="38" Height="25" Margin="8,0,0,0">
-                <TextBlock Text="text" Padding="5" FontWeight="Bold" MouseLeftButtonDown="klick"/>
-
-            </Border>
-            <Border x:Name="bash" CornerRadius="8" Background="Green" Width="35" Height="25" Margin="8,0,0,0">
-                <TextBlock Text="bash" Padding="5" FontWeight="Bold" MouseLeftButtonDown="klick"></TextBlock>
-            </Border>
-            <Border x:Name="cpp" CornerRadius="8" Background="RoyalBlue" Width="35" Height="25" Margin="8,0,0,0">
-                <TextBlock Text="cpp" Padding="5" FontWeight="Bold" MouseLeftButtonDown="klick"></TextBlock>
-            </Border>
-            <Border x:Name="cs" CornerRadius="8" Background="BlueViolet" Width="35" Height="25" Margin="8,0,0,0">
-                <TextBlock Text="cs" Padding="5" FontWeight="Bold" MouseLeftButtonDown="klick"></TextBlock>
-            </Border>
-            <Border x:Name="java" CornerRadius="8" Background="CadetBlue" Width="35" Height="25" Margin="8,0,0,0">
-                <TextBlock Text="java" Padding="5" FontWeight="Bold" MouseLeftButtonDown="klick"></TextBlock>
-            </Border>
-            <Border x:Name="css" CornerRadius="8" Background="DodgerBlue" Width="35" Height="25" Margin="8,0,0,0">
-                <TextBlock Text="css" Padding="5" FontWeight="Bold" MouseLeftButtonDown="klick"></TextBlock>
-            </Border>
-            <Border x:Name="html" CornerRadius="8" Background="Orange" Width="45" Height="25" Margin="8,0,0,0">
-                <TextBlock Text="html" Padding="5" FontWeight="Bold" MouseLeftButtonDown="klick"></TextBlock>
-            </Border>
-            <Border x:Name="js" CornerRadius="8" Background="Goldenrod" Width="35" Height="25" Margin="8,0,0,0">
-                <TextBlock Text="js" Padding="5" FontWeight="Bold" MouseLeftButtonDown="klick"></TextBlock>
-            </Border>
-            <Border x:Name="php" CornerRadius="8" Background="LightSlateGray" Width="35" Height="25" Margin="8,0,0,0">
-                <TextBlock Text="php" Padding="5" FontWeight="Bold" MouseLeftButtonDown="klick"></TextBlock>
-            </Border>
-            <Border x:Name="python" CornerRadius="8" Background="Gold" Width="48" Height="25" Margin="8,0,0,0">
-                <TextBlock Text="python" Padding="5" FontWeight="Bold" MouseLeftButtonDown="klick"></TextBlock>
-            </Border>
-            <Border x:Name="sql" CornerRadius="8" Background="SkyBlue" Width="35" Height="25" Margin="8,0,0,0">
-                <TextBlock Text="sql" Padding="5" FontWeight="Bold" MouseLeftButtonDown="klick"></TextBlock>
-            </Border>
+            <local:Technology Type="text" Text="Text" Color="Gray" Width="40" MouseLeftButtonDown="klick"/>
+            <local:Technology Type="bash" Text="Bash" Color="Green" Width="40" MouseLeftButtonDown="klick"/>
+            <local:Technology Type="cpp" Text="C++" Color="RoyalBlue" Width="40" MouseLeftButtonDown="klick"/>
+            <local:Technology Type="cs" Text="C#" Color="BlueViolet" Width="35" MouseLeftButtonDown="klick"/>
+            <local:Technology Type="java" Text="Java" Color="CadetBlue" Width="40" MouseLeftButtonDown="klick"/>
+            <local:Technology Type="css" Text="CSS" Color="DodgerBlue" Width="38" MouseLeftButtonDown="klick"/>
+            <local:Technology Type="html" Text="HTML" Color="Orange" Width="50" MouseLeftButtonDown="klick"/>
+            <local:Technology Type="javascript" Text="Java Script" Color="Goldenrod" Width="77" MouseLeftButtonDown="klick"/>
+            <local:Technology Type="php" Text="PHP" Color="LightSlateGray" Width="40" MouseLeftButtonDown="klick"/>
+            <local:Technology Type="python" Text="Python" Color="Gold" Width="55" MouseLeftButtonDown="klick"/>
+            <local:Technology Type="sql" Text="SQL" Color="SkyBlue" Width="40" MouseLeftButtonDown="klick"/>
         </StackPanel>
         <StackPanel Orientation="Horizontal" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" HorizontalAlignment="Right">
             <Border  CornerRadius="2" BorderBrush="DeepSkyBlue" BorderThickness="2" Background="White" Width="25" Height="25" Margin="4,0,0,0">
@@ -104,7 +81,6 @@
             <TextBlock Text="Updat time" HorizontalAlignment="Left" Margin="10,5,0,10" FontSize="16" FontWeight="DemiBold"></TextBlock>
         </StackPanel>
         
-        
-        
+
     </Grid>
 </Window>

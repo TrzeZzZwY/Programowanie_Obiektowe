@@ -64,7 +64,7 @@ namespace lab_9
         private void klick(object sender, MouseButtonEventArgs e)
         {
             ClearSnip();
-            DownloadSnip(((TextBlock)sender).Text);
+            DownloadSnip(((Technology)sender).Type);
         }
         private void ClearSnip()
         {
