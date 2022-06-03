@@ -27,28 +27,11 @@ namespace lab_9
         public MainWindow()
         {
             InitializeComponent();
-
-            int pageNumber = 1;
-            int pageSize = 5;
-            string snippetsType = ""; // C#
-
-            PageReposne reponse = FetchSnippets(pageNumber, pageSize, snippetsType);
+            DownloadSnip("");
 
 
-            foreach (SnippetReponse snippet in reponse.Batches)
-            {
-                TextBox name = new TextBox();
-                TextBox type = new TextBox();
-                TextBox date = new TextBox();
-                name.Text = snippet.Name;
-                SName.Children.Add(name);
-                type.Text = snippet.Type;
-                SType.Children.Add(type);
-                date.Text = snippet.CreationTime.ToString();
-                STime.Children.Add(date);
-            }
 
-                //Console.WriteLine("    (" + snippet.Size + ")    " + snippet.Name + "    [" + snippet.Type + "]    " + snippet.CreationTime + "    " + snippet.UpdateTime);
+            //Console.WriteLine("    (" + snippet.Size + ")    " + snippet.Name + "    [" + snippet.Type + "]    " + snippet.CreationTime + "    " + snippet.UpdateTime);
 
         }
 
@@ -75,6 +58,45 @@ namespace lab_9
             string data = FetchData(url);
 
             return JsonSerializer.Deserialize<PageReposne>(data);
+        }
+
+
+        private void klick(object sender, MouseButtonEventArgs e)
+        {
+            ClearSnip();
+            DownloadSnip(((TextBlock)sender).Text);
+        }
+        private void ClearSnip()
+        {
+            var temp = SName.Children[0];
+            SName.Children.Clear();
+            SName.Children.Add(temp);
+            temp = SType.Children[0];
+            SType.Children.Clear();
+            SType.Children.Add(temp);
+            temp = STime.Children[0];
+            STime.Children.Clear();
+            STime.Children.Add(temp);
+        }
+        private void DownloadSnip(string snippetsType)
+        {
+            int pageNumber = 1;
+            int pageSize = 5;
+
+            PageReposne reponse = FetchSnippets(pageNumber, pageSize, snippetsType);
+
+            foreach (SnippetReponse snippet in reponse.Batches)
+            {
+                TextBox name = new TextBox();
+                TextBox type = new TextBox();
+                TextBox date = new TextBox();
+                name.Text = snippet.Name;
+                SName.Children.Add(name);
+                type.Text = snippet.Type;
+                SType.Children.Add(type);
+                date.Text = snippet.CreationTime.ToString();
+                STime.Children.Add(date);
+            }
         }
     }
 
@@ -113,5 +135,6 @@ namespace lab_9
         [JsonPropertyName("updateTime")]
         public DateTime? UpdateTime { get; set; }
     }
+
 
 }
